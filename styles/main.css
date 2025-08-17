@@ -120,12 +120,12 @@ h1,h2,h3,h4 { color: var(--primary); margin-top: 0.4em; }
 
 @media (min-width: 960px) {
   .project-card {
-    width: calc(33.333% - 1rem);
+    width: calc(50% - 1rem);
   }
 }
 
-@media (max-width: 1140px) {
+@media (min-width: 1140px) {
   .project-card {
-    width: calc(25% - 1rem);
+    width: calc(33% - 1rem);
   }
 }
